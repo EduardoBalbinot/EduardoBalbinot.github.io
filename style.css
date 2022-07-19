@@ -22,6 +22,10 @@ h2{
 img{
     border-radius: 20px;
     margin-left: 20px;
+    margin-top: 10px;
+    height: 300px;
+    padding: 15px;
+    background-color: #5E60CE;
 }
 
 
@@ -34,10 +38,44 @@ img{
     border-radius: 0px 0px 10px 10px;
 }
 
-
+main{
+    max-width: 1200px;
+    margin: 0px auto;
+}
 
 a{
     display:block;
     text-decoration: none;
     color: white;
 }
+
+li{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#descricaoBloco{
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: center;*/
+    justify-content: center;
+}
+
+#descricaoBloco h1{
+    width: 100%;
+}
+
+#descricao{
+    flex-grow: 1;
+    max-width: 800px;
+}
+
+
+#descricao p{
+    height: 210px;
+}
+
+#habilidades li:nth-of-type(odd){
+    background-color: #6930C3;
+}
+
